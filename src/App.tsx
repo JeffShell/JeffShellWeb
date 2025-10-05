@@ -1,18 +1,18 @@
-import { defineComponent } from 'vue';
-import {RouterLink, RouterView} from 'vue-router';
+import { defineComponent } from 'vue'
+import { RouterView } from 'vue-router'
+
 import './style/main.scss'
+import HeaderNav from './views/HeaderNav'
 
 export default defineComponent({
   name: 'App',
   setup() {
     return () => (
       <>
-        <div id="nav">
-          <RouterLink to="/">Home</RouterLink> |
-          <RouterLink to="/about">About</RouterLink>
-        </div>
-        <RouterView/>
+        {/* 头部导航拦 */}
+        <HeaderNav />
+        <RouterView />
       </>
-    );
-  }
-});
+    )
+  },
+})

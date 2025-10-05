@@ -1,0 +1,19 @@
+#nav {
+  margin: 0;
+  padding: 0;
+  height: var(--header-height);
+  line-height: var(--header-height);
+  display: flex;
+  justify-content: space-between;
+}
+.logo {
+  margin-left: var(--gap);
+  border: 1px solid green;
+}
+.nav-links {
+  border: 1px solid green;
+  margin-right: var(--gap);
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
