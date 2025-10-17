@@ -1,10 +1,18 @@
 :root {
-  --nav-width: 1042px;
+  --nav-width: 1200px;
   --gap: 24px;
   --header-height: 4rem;
 }
 * {
   box-sizing: border-box;
+  font-family:
+    'Microsoft Jhenghei',
+    Lantinghei SC,
+    'lanting',
+    PingFang SC,
+    Seguo UI,
+    Microsoft Yahei,
+    Arial;
 }
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
@@ -12,11 +20,10 @@
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  border: 1px solid red;
 }
 
 body {
-  border: 1px solid blue;
+  // border: 1px solid blue;
   margin: 0 auto;
   min-height: 100vh;
   max-width: calc(var(--nav-width) + var(--gap) * 2);
@@ -42,4 +49,10 @@ body {
 a {
   text-decoration: none;
   color: #000;
+}
+
+.contentMain {
+  padding: 16px;
+  // border: 1px solid red;
+  height: calc(100vh - var(--header-height));
 }

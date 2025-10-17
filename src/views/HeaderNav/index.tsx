@@ -8,9 +8,11 @@ export default defineComponent({
   setup() {
     return () => (
       <div id="nav">
-        <div class="logo">LOGO</div>
+        <div class="logo">
+          <RouterLink to="/">JeffShell</RouterLink>
+        </div>
         <div class="nav-links">
-          <RouterLink to="/">Home</RouterLink>
+          {/* <RouterLink to="/">Home</RouterLink> */}
           <RouterLink to="/blog">blog</RouterLink>
           <RouterLink to="/MovieViewLog">观影记录</RouterLink>
           <RouterLink to="/BookViewLog">读书记录</RouterLink>

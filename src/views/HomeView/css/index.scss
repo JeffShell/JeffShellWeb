@@ -1,0 +1,20 @@
+.mainHomeView {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  &_userHeader {
+    // border: 1px solid green;
+    width: 8rem;
+    height: 8rem;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  &_myIntroduce {
+    margin-top: 16px;
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+}

@@ -11,7 +11,9 @@ export default defineComponent({
       <>
         {/* 头部导航拦 */}
         <HeaderNav />
-        <RouterView />
+        <div class="contentMain">
+          <RouterView />
+        </div>
       </>
     )
   },
